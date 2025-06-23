@@ -1,0 +1,80 @@
+# My Streamlit and FastAPI Application
+
+This project is a web application that utilizes FastAPI for the backend and Streamlit for the frontend. The application is designed to demonstrate how to create a full-stack application using these two powerful frameworks.
+
+## Project Structure
+
+```
+my-streamlit-fastapi-app
+├── backend
+│   ├── app.py               # Entry point for the FastAPI backend application
+│   ├── requirements.txt      # Python dependencies for the backend
+│   └── README.md             # Documentation for the backend
+├── frontend
+│   ├── app.py               # Entry point for the Streamlit frontend application
+│   ├── requirements.txt      # Python dependencies for the frontend
+│   └── README.md             # Documentation for the frontend
+└── README.md                 # General documentation for the entire project
+```
+
+## Getting Started
+
+To get started with this project, follow the instructions below.
+
+### Prerequisites
+
+Make sure you have Python 3.7 or higher installed on your machine.
+
+### Setup
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd my-streamlit-fastapi-app
+   ```
+
+2. Set up the backend:
+   - Navigate to the `backend` directory:
+     ```
+     cd backend
+     ```
+   - Install the backend dependencies:
+     ```
+     pip install -r requirements.txt
+     ```
+
+3. Set up the frontend:
+   - Navigate to the `frontend` directory:
+     ```
+     cd ../frontend
+     ```
+   - Install the frontend dependencies:
+     ```
+     pip install -r requirements.txt
+     ```
+
+### Running the Application
+
+1. Start the FastAPI backend:
+   - Navigate to the `backend` directory and run:
+     ```
+     uvicorn app:app --reload
+     ```
+
+2. Start the Streamlit frontend:
+   - Navigate to the `frontend` directory and run:
+     ```
+     streamlit run app.py
+     ```
+
+### Usage
+
+Once both the backend and frontend are running, you can access the Streamlit application in your web browser at `http://localhost:8501`. The frontend will interact with the FastAPI backend to fetch and display data.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
