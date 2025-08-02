@@ -3,21 +3,6 @@
 
 This project is a web application that utilizes FastAPI for the backend and Streamlit for the frontend. The application is designed to demonstrate how to create a full-stack application using these two powerful frameworks.
 
-## Project Structure
-
-```
-my-streamlit-fastapi-app
-├── backend
-│   ├── app.py               # Entry point for the FastAPI backend application
-│   ├── requirements.txt      # Python dependencies for the backend
-│   └── README.md             # Documentation for the backend
-├── frontend
-│   ├── app.py               # Entry point for the Streamlit frontend application
-│   ├── requirements.txt      # Python dependencies for the frontend
-│   └── README.md             # Documentation for the frontend
-└── README.md                 # General documentation for the entire project
-```
-
 ## Getting Started
 
 To get started with this project, follow the instructions below.
