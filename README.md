@@ -58,7 +58,7 @@ Email: siddhanttomar2003@gmail.com
 
 ## 📜 License
 
-This project is proprietary and was developed for Jio. All rights reserved.<<<<<<< HEAD
+This project is proprietary and was developed for Jio Platforms Ltd. All rights reserved.<<<<<<< HEAD
 # My Streamlit and FastAPI Application
 
 This project is a web application that utilizes FastAPI for the backend and Streamlit for the frontend. The application is designed to demonstrate how to create a full-stack application using these two powerful frameworks.
