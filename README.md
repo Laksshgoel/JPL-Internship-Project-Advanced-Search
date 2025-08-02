@@ -1,4 +1,64 @@
-<<<<<<< HEAD
+# Jio Internship Project – Object Detection App
+
+This repository contains the code developed during my 2-month internship (June–July 2025) at **Jio AI Cloud** under the mentorship of **Mr. Shashank Upadhyay**. The project focuses on building an **object detection and search system** that tags objects in images and enables object-based image retrieval.
+
+## 🚀 Project Overview
+
+The goal was to build a full-stack application for:
+
+- Detecting and tagging objects in images using **YOLOv8**
+- Storing image metadata in **MongoDB**
+- Serving APIs with **FastAPI**
+- Creating a simple UI using **Streamlit**
+- Hosting image files securely using **Cloudinary**
+- Enabling object-based search functionality
+
+## 🛠️ Tech Stack
+
+| Layer         | Tools/Frameworks             |
+|--------------|------------------------------|
+| Detection     | YOLOv8 (Ultralytics)         |
+| Backend       | FastAPI, Pydantic            |
+| Frontend      | Streamlit                    |
+| Database      | MongoDB                      |
+| Storage       | Cloudinary                   |
+| Deployment    | Local                        |
+
+## 📁 Directory Structure
+
+project-root/
+├── backend/ # FastAPI backend and APIs
+├── frontend/ # Streamlit frontend
+├── models/ # YOLOv8 model and inference code
+├── populate_db.py # Script to populate MongoDB
+├── requirements.txt # Python dependencies
+└── README.md # This file
+
+
+## 📷 Features
+
+- Upload images and auto-detect objects
+- Store object tags in MongoDB
+- Search images by object name
+- Interactive UI using Streamlit
+- Scalable architecture with modular components
+
+
+## 👤 Author
+
+**Lakssh Goel**  
+B.Tech (SE), Delhi Technological University  
+Intern @ Jio AI Cloud (June–July 2025)  
+Email: laksshgoelbosco@gmail.com
+
+**Siddhant Tomar**  
+B.Tech (IT), National Institute of Technology Raipur  
+Intern @ Jio AI Cloud (June–July 2025)  
+Email: siddhanttomar2003@gmail.com
+
+## 📜 License
+
+This project is proprietary and was developed for Jio. All rights reserved.<<<<<<< HEAD
 # My Streamlit and FastAPI Application
 
 This project is a web application that utilizes FastAPI for the backend and Streamlit for the frontend. The application is designed to demonstrate how to create a full-stack application using these two powerful frameworks.
@@ -52,6 +112,8 @@ Make sure you have Python 3.7 or higher installed on your machine.
      ```
      streamlit run app.py
      ```
+
+3. Start the MongoDB Compass
 
 ### Usage
 
