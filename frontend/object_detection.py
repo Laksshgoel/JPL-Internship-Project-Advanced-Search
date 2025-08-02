@@ -6,9 +6,9 @@ from ultralytics import YOLO
 import cloudinary
 import cloudinary.uploader
 cloudinary.config(
-    cloud_name="?",
-    api_key="?",
-    api_secret="?"
+    cloud_name="dm7qsyh77",
+    api_key="456649282336662",
+    api_secret="5u2wGhQ0lDJb8IUyndhXQB9_toM"
 )
 model = YOLO("yolov8n.pt")
 
