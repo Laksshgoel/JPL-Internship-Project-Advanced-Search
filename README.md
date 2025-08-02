@@ -114,6 +114,8 @@ Make sure you have Python 3.7 or higher installed on your machine.
      ```
 
 3. Start the MongoDB Compass
+   
+4. Sign in to Cloudinary to get cloud_name, api_key & api_secret_key. 
 
 ### Usage
 
