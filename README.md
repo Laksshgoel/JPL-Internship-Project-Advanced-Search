@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Streamlit and FastAPI Application
 
 This project is a web application that utilizes FastAPI for the backend and Streamlit for the frontend. The application is designed to demonstrate how to create a full-stack application using these two powerful frameworks.
@@ -78,3 +79,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+=======
+# JPL-Internship-Project-Advanced-Search
+AI-powered object detection and retrieval system using YOLOv8. Includes Streamlit frontend, FastAPI backend, MongoDB database, and Cloudinary for image storage. Supports object-based search, image tagging, and fuzzy query correction using LanguageTool.
+>>>>>>> b82094caeaa04ed8c5cc8e68a55f971c10095fb3
